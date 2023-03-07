@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-pac-zvcc
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:e7f0ecd25c7f16766c327e85da814d8083a63baa1a8ad436592cbe27f46fc5a2
         imagePullPolicy: Always
         name: container-image
         resources:
